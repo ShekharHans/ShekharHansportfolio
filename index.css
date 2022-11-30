@@ -1608,13 +1608,15 @@ button {
 }
 
 @media screen and (max-width:600px) {
-    *{
+
+    /* *{
         margin: 0;
         padding: 0;
-    }
-    body{
+    } */
+    body {
         width: 100px;
     }
+
     .bubbles {
         position: absolute;
         width: 108%;
@@ -1623,20 +1625,24 @@ button {
         overflow: hidden;
         display: none;
     }
-    nav{
+
+    nav {
         width: 100px;
         margin-left: 47px;
         padding: 0;
     }
+
     .navlinks {
         margin-left: -59px;
         padding-left: 5px;
         width: 100px;
     }
-    .navlinks li{
+
+    .navlinks li {
 
         padding-bottom: 10px;
     }
+
     .navlinks li a {
 
         font-size: 10px;
@@ -1667,10 +1673,10 @@ button {
 
     .glass {
         position: absolute;
-        width: 355px;
-        height: 243px;
-        left: 5px;
-        top: 150px;
+        width: 394px;
+        height: 277px;
+        left: 93px;
+        top: 194px;
         background: #00bf8f2a;
         background: -webkit-linear-gradient(to right, #0015102f, #00bf8f25);
         background: linear-gradient(to right, #00151036, #00bf8f29);
@@ -1682,15 +1688,15 @@ button {
     }
 
     .text {
-        margin-left: 280px;
+        margin-left: 319px;
         font-size: 10px;
     }
 
     .gradient-text {
         text-align: center;
         font-size: 39px;
-        margin-left: -120px;
-        margin-top: -63px;
+        margin-left: -108px;
+        margin-top: -25px;
     }
 
 
@@ -1700,18 +1706,17 @@ button {
     }
 
     .box {
-        margin-top: 10px;
-        margin-left: 110px;
+        margin-top: 12px;
+        margin-left: 133px;
         width: 10vh;
     }
 
     .contentName1 h2 {
-        margin-left: -269px;
-        margin-top: 37px;
-        font-size: 47px;
+        margin-left: -265px;
+        margin-top: 40px;
+        font-size: 52px;
         transform: none;
         font-style: normal;
-        /* color: #09fffb; */
     }
 
     .contentName1 h2:nth-child(1) {
@@ -1747,24 +1752,29 @@ button {
     }
 
     .myPic img {
-        width: 151px;
-        margin-left: 103px;
-        margin-top: -1440px;
-        border-radius: 70px;
+        width: 190px;
+        margin-left: 194px;
+        margin-top: -1402px;
+        border-radius: 95px;
         filter: none;
     }
 
     .who {
         font-size: 29px;
-        margin-left: 105px;
-        margin-top: 219px;
+        margin-left: 208px;
+        margin-top: 225px;
+        width: 154px;
     }
-    #aboutMe{
-        width: 0;
+
+    #aboutMe {
+        width: 363px;
     }
+
     #aboutMe .aboutText p {
-        margin-left: -37px;
+        margin-left: 62px;
         width: 345px;
+        text-align: center;
+
     }
 
     .aboutImg img {
@@ -1773,15 +1783,15 @@ button {
 
     .cvbtn {
         margin-top: 104px;
-        margin-left: -217px;
+        margin-left: -136px;
         width: 700px;
     }
 
     .backSide {
-        margin-top: 108px;
-        margin-left: 10px;
-        width: 343px;
-        height: 304px;
+        margin-top: 114px;
+        margin-left: 118px;
+        width: 354px;
+        height: 313px;
 
     }
 
@@ -1806,7 +1816,7 @@ button {
     }
 
     #PROJECT {
-        margin-left: -150px;
+        margin-left: -34px;
         animation: none;
         transform: none;
     }
@@ -1843,14 +1853,14 @@ button {
         /* width: 100px;
         height: 200px; */
         margin-top: -100px;
-        margin-left: 23px;
+        margin-left: 129px;
         transform: none;
         background-color: black;
     }
 
     .social-links {
-        margin-top: 100px;
-        margin-left: 274px;
+        margin-top: 166px;
+        margin-left: 484px;
         padding-bottom: 100px;
     }
 
@@ -1859,26 +1869,19 @@ button {
     }
 
     .addInfo {
-        margin-top: -59px;
-        margin-left: 5px;
+        margin-top: 37px;
+        margin-left: 109px;
         width: 370px;
     }
 
     .copy {
-        margin-top: 406px;
-        margin-left: -61px;
+        margin-top: 506px;
+        margin-left: 100px;
         width: 400px;
     }
 
     #progress {
-        height: 10px;
-        width: 10px;
-        position: fixed;
-        z-index: 999999;
-        /* margin-top: 100px; */
-        top: 700px;
-        /* bottom: -50px; */
-        /* right: 10px; */
+        display: none;
     }
 
     #progress-value {
