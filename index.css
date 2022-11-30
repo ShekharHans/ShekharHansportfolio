@@ -1759,7 +1759,9 @@ button {
         margin-left: 105px;
         margin-top: 219px;
     }
-
+    #aboutMe{
+        width: 0;
+    }
     #aboutMe .aboutText p {
         margin-left: -37px;
         width: 345px;
@@ -1841,14 +1843,14 @@ button {
         /* width: 100px;
         height: 200px; */
         margin-top: -100px;
-        margin-left: 18px;
+        margin-left: 23px;
         transform: none;
         background-color: black;
     }
 
     .social-links {
         margin-top: 100px;
-        margin-left: -5px;
+        margin-left: 274px;
         padding-bottom: 100px;
     }
 
@@ -1858,14 +1860,14 @@ button {
 
     .addInfo {
         margin-top: -59px;
-        margin-left: -4px;
+        margin-left: 5px;
         width: 370px;
     }
 
     .copy {
-        margin-top: 218px;
+        margin-top: 406px;
         margin-left: -61px;
-        width: 500px;
+        width: 400px;
     }
 
     #progress {
