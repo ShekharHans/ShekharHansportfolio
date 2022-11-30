@@ -1623,7 +1623,11 @@ button {
         overflow: hidden;
         display: none;
     }
-
+    nav{
+        width: 100px;
+        margin-left: 47px;
+        padding: 0;
+    }
     .navlinks {
         margin-left: -59px;
         padding-left: 5px;
@@ -1745,7 +1749,7 @@ button {
     .myPic img {
         width: 151px;
         margin-left: 103px;
-        margin-top: -1340px;
+        margin-top: -1440px;
         border-radius: 70px;
         filter: none;
     }
@@ -1869,7 +1873,10 @@ button {
         width: 10px;
         position: fixed;
         z-index: 999999;
-        top: 600px;
+        /* margin-top: 100px; */
+        top: 700px;
+        /* bottom: -50px; */
+        /* right: 10px; */
     }
 
     #progress-value {
