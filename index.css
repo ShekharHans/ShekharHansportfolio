@@ -1762,7 +1762,7 @@ button {
     .who {
         font-size: 29px;
         margin-left: 208px;
-        margin-top: 245px;
+        margin-top: 475px;
         width: 200px;
     }
 
@@ -1783,7 +1783,7 @@ button {
 
     .cvbtn {
         margin-top: 104px;
-        margin-left: -120px;
+        margin-left: -100px;
         width: 700px;
     }
 
@@ -1875,7 +1875,7 @@ button {
     }
 
     .copy {
-        margin-top: 536px;
+        margin-top: 636px;
         margin-left: 100px;
         width: 400px;
     }
