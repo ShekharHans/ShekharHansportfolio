@@ -1612,6 +1612,9 @@ button {
         margin: 0;
         padding: 0;
     }
+    body{
+        width: 100px;
+    }
     .bubbles {
         position: absolute;
         width: 108%;
@@ -1742,7 +1745,7 @@ button {
     .myPic img {
         width: 151px;
         margin-left: 103px;
-        margin-top: -1351px;
+        margin-top: -1240px;
         border-radius: 70px;
         filter: none;
     }
