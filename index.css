@@ -1783,13 +1783,13 @@ button {
 
     .cvbtn {
         margin-top: 104px;
-        margin-left: -136px;
+        margin-left: -126px;
         width: 700px;
     }
 
     .backSide {
         margin-top: 114px;
-        margin-left: 118px;
+        margin-left: 108px;
         width: 354px;
         height: 313px;
 
@@ -1875,7 +1875,7 @@ button {
     }
 
     .copy {
-        margin-top: 506px;
+        margin-top: 536px;
         margin-left: 100px;
         width: 400px;
     }
